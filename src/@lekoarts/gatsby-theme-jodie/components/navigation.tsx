@@ -15,6 +15,7 @@ const Navigation = ({ bg }: { bg: string }) => {
         a: {
           color: readableColor(bg),
           textDecoration: `none`,
+          borderBorrom: `none`,
           fontSize: [1, 2, 3, 4],
           marginLeft: [2, 3, 3, 0],
           "&:active": {

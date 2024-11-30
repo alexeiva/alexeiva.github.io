@@ -23,6 +23,7 @@ const Sidebar = ({ bg }: SidebarProps) => {
         position: [`relative`, `relative`, `relative`, `fixed`],
         height: `100%`,
         display: `flex`,
+        borderBottom: `none`,
         flexDirection: [`row`, `row`, `row`, `column`],
         alignItems: [`center`, `center`, `center`, `flex-start`],
         justifyContent: [`space-between`, `space-between`, `space-between`, `flex-start`],
